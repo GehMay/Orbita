@@ -5,7 +5,7 @@
 **Gerenciador pessoal de projetos** — prioridades, to-dos, pomodoro e gráficos, tudo em um só lugar.
 
 ![Status](https://img.shields.io/badge/status-planejamento-yellow)
-![Licença](https://img.shields.io/badge/licença-não%20definida-lightgrey)
+![Licença](https://img.shields.io/badge/licença-MIT-green)
 ![Uso](https://img.shields.io/badge/uso-pessoal-blueviolet)
 
 </div>
@@ -53,6 +53,21 @@ A estrutura como PWA é necessária para que as notificações/alarmes funcionem
 - [ ] **3.** Pomodoro e gráficos
 - [ ] **4.** PWA e notificações
 - [ ] **5.** Refino visual e responsividade
+
+## 🤝 Como este projeto está sendo feito
+
+O Órbita está sendo planejado e desenvolvido com apoio de IA (Claude, da Anthropic). A divisão de responsabilidades:
+
+| Colaborador | Função |
+|---|---|
+| **Geovanna Tamagusko** | Autora e responsável pelo projeto — define requisitos, prioridades e toma todas as decisões de produto e arquitetura |
+| **Claude (IA)** | Assistente de desenvolvimento — ajuda a estruturar documentação, propor arquitetura técnica, redigir código e organizar o repositório, sempre a partir de instruções e decisões da autora |
+
+Toda decisão técnica proposta pela IA (stack, modelo de dados, estrutura) é uma recomendação a ser validada — não uma decisão final tomada sem revisão humana.
+
+## 📄 Licença
+
+Este projeto está sob a licença [MIT](./LICENSE) — escolhida por ser simples e permissiva para um projeto pessoal; pode ser trocada a qualquer momento conforme a necessidade.
 
 ---
 
