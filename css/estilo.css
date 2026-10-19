@@ -1,0 +1,34 @@
+:root {
+    --bg: #0d0f14;
+    --texto: #e9eaee;
+    --surface: #161921;
+    --borda: #5b5f66;
+}
+
+body {
+    background: var(--bg);
+    color: var(--texto);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#barra-topo {
+    height: 60px;
+    background: var(--surface);
+    color: var(--texto);
+    border: 0 12px 12px 12px var(--borda);
+}
+
+#corpo {
+    display: flex;
+}
+
+#sidebar {
+    width: 280px;
+    background: var(--surface);
+}
+
+#detalhe {
+    flex: 1;
+}
