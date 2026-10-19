@@ -4,7 +4,7 @@
 
 **Gerenciador pessoal de projetos** — prioridades, to-dos, pomodoro e gráficos, tudo em um só lugar.
 
-![Status](https://img.shields.io/badge/status-planejamento-yellow)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
 ![Licença](https://img.shields.io/badge/licença-MIT-green)
 ![Uso](https://img.shields.io/badge/uso-pessoal-blueviolet)
 
@@ -13,7 +13,7 @@
 ---
 
 > [!NOTE]
-> **Projeto em fase de planejamento.** Ainda não há código implementado — este repositório reúne, por enquanto, a documentação técnica e funcional do app.
+> **Projeto em desenvolvimento (Etapa 1 do roadmap: estrutura estática).** Documentação completa já disponível; o código está sendo construído aos poucos — ainda sem backend, pomodoro, gráficos ou recompensa funcionando.
 
 > [!IMPORTANT]
 > **Este Órbita usa minha conta Firebase pessoal.** Quer rodar sua própria cópia? Crie um [projeto Firebase gratuito](https://firebase.google.com/) e troque as chaves de configuração pelas suas — não é preciso pedir acesso a nada meu.
