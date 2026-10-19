@@ -1,40 +1,63 @@
-# Órbita
+<div align="center">
 
-Aplicativo pessoal de gerenciamento de projetos, com lista de projetos, prioridade, to-dos, descrição, prazo, pomodoro, gráficos de progresso e notificações/alarmes. Acesso autenticado, com sincronização entre dispositivos.
+# 🪐 Órbita
 
-> **Status:** planejamento. Ainda não há código implementado — este repositório reúne, por enquanto, a documentação do projeto.
+**Gerenciador pessoal de projetos** — prioridades, to-dos, pomodoro e gráficos, tudo em um só lugar.
 
-## Funcionalidades previstas
+![Status](https://img.shields.io/badge/status-planejamento-yellow)
+![Licença](https://img.shields.io/badge/licença-não%20definida-lightgrey)
+![Uso](https://img.shields.io/badge/uso-pessoal-blueviolet)
 
-- Lista de projetos do usuário
-- Detalhe do projeto: prioridade, to-dos (checkbox), descrição, data final
-- Temporizador pomodoro vinculado a cada projeto
-- Gráficos de progresso e tempo dedicado
-- Notificações e alarmes (fim de ciclo pomodoro, prazos)
-- Login e sincronização dos dados entre qualquer dispositivo
-
-## Documentação
-
-A documentação completa do planejamento está na pasta [`docs/`](./docs):
-
-- [`Orbita_README_Tecnico.pdf`](./docs/Orbita_README_Tecnico.pdf) — arquitetura, stack proposta (comparativo Firebase vs. Supabase), estrutura de pastas e roadmap.
-- [`Orbita_Especificacao_Funcional.pdf`](./docs/Orbita_Especificacao_Funcional.pdf) — funcionalidades, telas e modelo de dados sugerido.
-
-## Stack (proposta, ainda não decidida)
-
-- **Front-end:** HTML, CSS e JavaScript, estruturado como PWA (necessário para notificações/alarmes funcionarem com o app fechado).
-- **Backend e banco de dados:** Firebase (Firestore) ou Supabase (Postgres) — comparativo detalhado no README técnico.
-
-Detalhes e justificativas de cada escolha estão nos PDFs em `docs/`.
-
-## Roadmap
-
-1. Estrutura estática (lista de projetos e detalhe do projeto)
-2. Autenticação e persistência (backend conectado)
-3. Pomodoro e gráficos
-4. PWA e notificações
-5. Refino visual e responsividade
+</div>
 
 ---
 
-Projeto pessoal de [Geovanna Tamagusko](https://github.com/GehMay).
+> [!NOTE]
+> **Projeto em fase de planejamento.** Ainda não há código implementado — este repositório reúne, por enquanto, a documentação técnica e funcional do app.
+
+## 📋 Sobre
+
+O Órbita é um aplicativo pessoal para organizar projetos: visualizar a lista de tudo que está em andamento, abrir os detalhes de cada um (prioridade, tarefas, prazo), controlar o tempo de trabalho com a técnica pomodoro e acompanhar o progresso por gráficos. O acesso é autenticado, com os dados sincronizados entre qualquer dispositivo.
+
+## ✨ Funcionalidades previstas
+
+| Área | Descrição |
+|---|---|
+| 📁 Lista de projetos | Visão geral de todos os projetos do usuário |
+| 🔎 Detalhe do projeto | Prioridade, to-dos em checkbox, descrição, data final |
+| 🍅 Pomodoro | Temporizador de foco vinculado a cada projeto |
+| 📊 Gráficos | Progresso e tempo dedicado por projeto |
+| 🔔 Notificações e alarmes | Fim de ciclo pomodoro e prazos se aproximando |
+| 🔐 Conta e sincronização | Login e dados disponíveis em qualquer dispositivo |
+
+## 🧱 Stack (proposta, ainda não decidida)
+
+| Camada | Opção recomendada |
+|---|---|
+| Front-end | HTML, CSS e JavaScript, estruturado como **PWA** |
+| Backend / banco de dados | **Firebase** (Firestore) ou **Supabase** (Postgres) |
+
+A estrutura como PWA é necessária para que as notificações/alarmes funcionem mesmo com o app fechado. O comparativo completo entre Firebase e Supabase, com justificativa da recomendação, está no README técnico.
+
+## 📚 Documentação
+
+| Arquivo | Conteúdo |
+|---|---|
+| [`docs/Orbita_README_Tecnico.pdf`](./docs/Orbita_README_Tecnico.pdf) | Arquitetura, stack proposta, estrutura de pastas, roadmap |
+| [`docs/Orbita_Especificacao_Funcional.pdf`](./docs/Orbita_Especificacao_Funcional.pdf) | Funcionalidades, telas e modelo de dados |
+
+## 🗺️ Roadmap
+
+- [ ] **1.** Estrutura estática — lista de projetos e detalhe do projeto
+- [ ] **2.** Autenticação e persistência — backend conectado
+- [ ] **3.** Pomodoro e gráficos
+- [ ] **4.** PWA e notificações
+- [ ] **5.** Refino visual e responsividade
+
+---
+
+<div align="center">
+
+Projeto pessoal de **[Geovanna Tamagusko](https://github.com/GehMay)**
+
+</div>
