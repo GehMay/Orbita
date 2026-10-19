@@ -15,6 +15,9 @@
 > [!NOTE]
 > **Projeto em fase de planejamento.** Ainda não há código implementado — este repositório reúne, por enquanto, a documentação técnica e funcional do app.
 
+> [!IMPORTANT]
+> **Este Órbita usa minha conta Firebase pessoal.** Quer rodar sua própria cópia? Crie um [projeto Firebase gratuito](https://firebase.google.com/) e troque as chaves de configuração pelas suas — não é preciso pedir acesso a nada meu.
+
 ## 📋 Sobre
 
 O Órbita é um aplicativo pessoal para organizar projetos: visualizar a lista de tudo que está em andamento, abrir os detalhes de cada um (prioridade, tarefas, prazo), controlar o tempo de trabalho com a técnica pomodoro e acompanhar o progresso por gráficos. O acesso é autenticado, com os dados sincronizados entre qualquer dispositivo.
@@ -30,14 +33,14 @@ O Órbita é um aplicativo pessoal para organizar projetos: visualizar a lista d
 | 🔔 Notificações e alarmes | Fim de ciclo pomodoro e prazos se aproximando |
 | 🔐 Conta e sincronização | Login e dados disponíveis em qualquer dispositivo |
 
-## 🧱 Stack (proposta, ainda não decidida)
+## 🧱 Stack
 
-| Camada | Opção recomendada |
+| Camada | Escolha |
 |---|---|
 | Front-end | HTML, CSS e JavaScript, estruturado como **PWA** |
-| Backend / banco de dados | **Firebase** (Firestore) ou **Supabase** (Postgres) |
+| Backend / banco de dados | **Firebase** (Firestore + Authentication) |
 
-A estrutura como PWA é necessária para que as notificações/alarmes funcionem mesmo com o app fechado. O comparativo completo entre Firebase e Supabase, com justificativa da recomendação, está no README técnico.
+A estrutura como PWA é necessária para que as notificações/alarmes funcionem mesmo com o app fechado. O comparativo que levou à escolha do Firebase (frente a alternativas como Supabase) está no README técnico.
 
 ## 📚 Documentação
 
