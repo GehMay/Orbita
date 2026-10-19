@@ -32,6 +32,7 @@ O Órbita é um aplicativo pessoal para organizar projetos: visualizar a lista d
 | 📊 Gráficos | Progresso e tempo dedicado por projeto |
 | 🔔 Notificações e alarmes | Fim de ciclo pomodoro e prazos se aproximando |
 | 🔐 Conta e sincronização | Login e dados disponíveis em qualquer dispositivo |
+| 🪐 Recompensa (XP/streak) | Nível e sequência de dias, representados como um planeta na tela própria |
 
 ## 🧱 Stack
 
@@ -46,8 +47,9 @@ A estrutura como PWA é necessária para que as notificações/alarmes funcionem
 
 | Arquivo | Conteúdo |
 |---|---|
-| [`docs/Orbita_README_Tecnico.pdf`](./docs/Orbita_README_Tecnico.pdf) | Arquitetura, stack proposta, estrutura de pastas, roadmap |
+| [`docs/Orbita_README_Tecnico.pdf`](./docs/Orbita_README_Tecnico.pdf) | Arquitetura, stack, estrutura de pastas, roadmap |
 | [`docs/Orbita_Especificacao_Funcional.pdf`](./docs/Orbita_Especificacao_Funcional.pdf) | Funcionalidades, telas e modelo de dados |
+| [`docs/mockup.md`](./docs/mockup.md) | Link do mockup navegável das telas (privado, acesso só da autora) |
 
 ## 🗺️ Roadmap
 
@@ -55,7 +57,8 @@ A estrutura como PWA é necessária para que as notificações/alarmes funcionem
 - [ ] **2.** Autenticação e persistência — backend conectado
 - [ ] **3.** Pomodoro e gráficos
 - [ ] **4.** PWA e notificações
-- [ ] **5.** Refino visual e responsividade
+- [ ] **5.** Sistema de recompensa — XP, streak e tela do planeta
+- [ ] **6.** Refino visual e responsividade
 
 ## 🤝 Como este projeto está sendo feito
 
