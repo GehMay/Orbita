@@ -11,22 +11,27 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 0;
 }
 
 #barra-topo {
-    height: 60px;
+    height: 80px;
     background: var(--surface);
     color: var(--texto);
-    border: 0 12px 12px 12px var(--borda);
+    border-bottom: 0.5px solid var(--borda);
 }
 
 #corpo {
     display: flex;
+    min-height: 0;
+    flex: 1;
 }
 
 #sidebar {
     width: 280px;
     background: var(--surface);
+    border-right: 0.5px solid var(--borda);
+    color: var(--texto);
 }
 
 #detalhe {
