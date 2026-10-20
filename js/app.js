@@ -1,4 +1,5 @@
 const sidebar = document.getElementById("sidebar");
+const detalhe = document.getElementById("detalhe");
 
 projetos.forEach(function(projeto){
     const card = document.createElement("div");
@@ -19,6 +20,11 @@ projetos.forEach(function(projeto){
     sidebar.appendChild(card);
 
     card.addEventListener("click", function() {
-        console.log("cliquei em: " + projeto.titulo);
+       detalhe.innerHTML = "";
+
+       const tituloDetalhe = document.createElement("h2");
+       tituloDetalhe.textContent = projeto.titulo;
+
+       detalhe.appendChild(tituloDetalhe);
     });
 })
